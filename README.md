@@ -1,6 +1,6 @@
 # CUDA
-# Projects on parallel processing using CUDA.
-I this project I have tried to inplement parallel processing framework in cuda for breath first search tee transversal.
+# Introduction to CUDA.
+Here is a brief intro and a small document to understand and apply CUDA.
 Content
 
 1.Introduction to CUDA and GPU
