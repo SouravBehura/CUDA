@@ -48,14 +48,6 @@ A typical CUDA program has code intended both for the GPU and the CPU. By defaul
 
 The device code runs on the GPU, and the host code runs on the CPU. The NVCC processes a CUDA program, and separates the host code from the device code. To accomplish this, special CUDA keywords are looked for. The code intended to run of the GPU (device code) is marked with special CUDA keywords for labeling data-parallel functions, called ‘Kernels’. The device code is further compiled by the NVCC and executed on the GPU.
 
-So the process starts in the host and also ends in the host and only some part of it is paralleled in GPU. So the processes is as following-
-
-
-
-
-
-
-
 4.INSTALLATION
 
 CUDA can be used in windows, linux and macOs. I am using it in windows 10 in visual studio 2015 community with Nsight plugin, this plugin is installed when you download the CUDA toolkit on a system which has a CUDA enabled graphics card, and a version of visual studio which is compatible with the version of CUDA that is to be installed. I my case I am using visual studio 2015 community with CUDA 9.0 and it works fine, it would not work with visual studio 2017. And also one thing should be taken care about is that visual studio should be installed before CUDA, if trying to install visual studio after CUDA then Nsight plugin would not be available and CUDA project can’t be created in visual studio.
